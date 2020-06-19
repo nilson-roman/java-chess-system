@@ -99,7 +99,7 @@ public class ChessMatch {
 			enPassantVulnerable = null;
 		}
 		
-		return (ChessPiece)capturedPiece;
+		return (ChessPiece) capturedPiece;
 	}
 	
 	private Piece makeMove(Position source, Position target) {
